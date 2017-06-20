@@ -26,3 +26,4 @@ $db2->where('parentid', $level1['id']);
   
   For this update to work properly, you must make sure of server runnability.
   Thats all for today :)
+  ![Alt text](https://github.com/peerfahad/Dynamic-Dropdown/blob/master/pic.PNG?raw=true "Optional Title")
