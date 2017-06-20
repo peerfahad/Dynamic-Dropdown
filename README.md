@@ -18,10 +18,13 @@ $db2->where('parentid', '0');
 $levels1 = $db2->get('category');
 
 $db2->where('parentid', $level1['id']);
-  $levels2 = $db2->get('category');
-  $submenu_1 = '';
-  $ulmenu_1 = '';
-  $sub_text_1 = '';
+$levels2 = $db2->get('category');
+
+$submenu_1 = '';
+
+$ulmenu_1 = '';
+
+$sub_text_1 = '';
   
   
   For this update to work properly, you must make sure of server runnability.
