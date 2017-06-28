@@ -1,5 +1,6 @@
 {
     "require": {
-        "joshcam/mysqli-database-class": "dev-master"
+        "joshcam/mysqli-database-class": "dev-master",
+        "twbs/bootstrap": "^3.3"
     }
 }
