@@ -2,9 +2,9 @@
 require __DIR__ . '/vendor/autoload.php';
 
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'pass4rd');
-define('DB_DATABASE', 'categories');
+define('DB_USERNAME', '');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', '');
 
 $db2 = new MysqliDb (
     DB_SERVER,
