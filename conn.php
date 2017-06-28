@@ -5,9 +5,5 @@
    define('DB_DATABASE', 'dynamic');
    $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
-
-   require_once ('mysql/MysqliDb.php');
-
-
    $db2 = new MysqliDb (DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 ?>

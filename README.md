@@ -1,16 +1,17 @@
 # Dynamic-Dropdown
 
-This part of the web application was completed as a milestone.
-We developed a dropdown from where we can select handworker categories and their subcategories.
+Creates a dynamic drop down menu in PHP using a categories table in a mySQL database. 
 
-To update this feature in your web application, the user needs to import the database from local server and place the dropdown.php file in the HTDOCS folder of your respective local server client such as XAMPP/WAMPP/MAMPP.
+# Setup
+
+- Import the sql dump from `dynamic-dropdown/sql-dump.sql` into a mySQL database. 
+- Run `composer install`
+- 
 
 
-# Initialization
-
-Simple initialization with utf8 charset set by default:
-
-```$db = new MysqliDb ('host', 'username', 'password', 'databaseName');```
+```
+$db = new MysqliDb ('host', 'username', 'password', 'databaseName');
+```
 
 
 ## Select Query
@@ -25,9 +26,7 @@ $db2->where('parentid', $level1['id']);
 $levels2 = $db2->get('category');
 
 $submenu_1 = '';
-
 $ulmenu_1 = '';
-
 $sub_text_1 = '';
 
 ```  
