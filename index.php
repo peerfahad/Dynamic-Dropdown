@@ -8,7 +8,7 @@ $levels1 = $db2->get('categories');
 <html>
 <link rel="stylesheet" href="./vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="./vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="style.css"/>
 <body>
 <div class="dropdown">
